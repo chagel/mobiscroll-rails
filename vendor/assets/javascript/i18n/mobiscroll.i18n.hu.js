@@ -1,14 +1,18 @@
 (function ($) {
-    $.mobiscroll.i18n.hu = $.extend($.mobiscroll.i18n.hu, {
+    $.mobiscroll.i18n.hu = {
         // Core
         setText: 'OK',
         cancelText: 'Mégse',
+        clearText: 'Törlés',
+        selectedText: '{count} kiválasztva',
         // Datetime component
-        dateFormat: 'yy.mm.dd',
+        dateFormat: 'yy.mm.dd.',
         dateOrder: 'yymmdd',
         dayNames: ['Vasárnap', 'Hétfő', 'Kedd', 'Szerda', 'Csütörtök', 'Péntek', 'Szombat'],
         dayNamesShort: ['Va', 'Hé', 'Ke', 'Sze', 'Csü', 'Pé', 'Szo'],
+        dayNamesMin: ['V', 'H', 'K', 'Sz', 'Cs', 'P', 'Sz'],
         dayText: 'Nap',
+        delimiter: '.',
         hourText: 'Óra',
         minuteText: 'Perc',
         monthNames: ['Január', 'Február', 'Március', 'Április', 'Május', 'Június', 'Július', 'Augusztus', 'Szeptember', 'Október', 'November', 'December'],
@@ -19,11 +23,21 @@
         timeWheels: 'HHii',
         yearText: 'Év',
         nowText: 'Most',
+        pmText: 'de',
+        amText: 'du',
         // Calendar component
+        firstDay: 1,
         dateText: 'Dátum',
         timeText: 'Idő',
         calendarText: 'Naptár',
+        todayText: 'Ma',
+        prevMonthText: 'Előző hónap',
+        nextMonthText: 'Következő hónap',
+        prevYearText: 'Előző év',
+        nextYearText: 'Következő év',
         closeText: 'Bezár',
+        eventText: 'esemény',
+        eventsText: 'esemény',
         // Daterange component
         fromText: 'Eleje',
         toText: 'Vége',
@@ -39,6 +53,12 @@
         stopText: 'Megállít',
         resetText: 'Visszaállít',
         lapText: 'Lap',
-        hideText: 'Elrejt'
-    });
+        hideText: 'Elrejt',
+        // Listview
+        backText: 'Vissza',
+        undoText: 'Visszavon',
+        // Form
+        offText: 'Ki',
+        onText: 'Be'
+    };
 })(jQuery);

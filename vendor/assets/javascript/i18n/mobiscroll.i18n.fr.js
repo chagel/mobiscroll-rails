@@ -1,13 +1,17 @@
 (function ($) {
-    $.mobiscroll.i18n.fr = $.extend($.mobiscroll.i18n.fr, {
+    $.mobiscroll.i18n.fr = {
         // Core
-        setText: 'Terminé',
+        setText: 'Terminer',
         cancelText: 'Annuler',
+        clearText: 'Effacer',
+        selectedText: '{count} sélectionné',
+        selectedPluralText: '{count} sélectionnés',
         // Datetime component
         dateFormat: 'dd/mm/yy',
         dateOrder: 'ddmmyy',
         dayNames: ['&#68;imanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
         dayNamesShort: ['&#68;im.', 'Lun.', 'Mar.', 'Mer.', 'Jeu.', 'Ven.', 'Sam.'],
+        dayNamesMin: ['&#68;', 'L', 'M', 'M', 'J', 'V', 'S'],
         dayText: 'Jour',
         monthText: 'Mois',
         monthNames: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
@@ -19,7 +23,10 @@
         timeWheels: 'HHii',
         yearText: 'Année',
         nowText: 'Maintenant',
+        pmText: 'après-midi',
+        amText: 'avant-midi',
         // Calendar component
+        firstDay: 1,
         dateText: 'Date',
         timeText: 'Heure',
         calendarText: 'Calendrier',
@@ -39,6 +46,12 @@
         stopText: 'Arrêter',
         resetText: 'Réinitialiser',
         lapText: 'Lap',
-        hideText: 'Cachez'
-    });
+        hideText: 'Cachez',
+        // Listview
+        backText: 'Arrière',
+        undoText: 'Défaire',
+        // Form
+        offText: 'Non',
+        onText: 'Oui'
+    };
 })(jQuery);

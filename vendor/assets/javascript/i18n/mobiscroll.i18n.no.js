@@ -1,14 +1,18 @@
 (function ($) {
-    $.mobiscroll.i18n.no = $.extend($.mobiscroll.i18n.no, {
+    $.mobiscroll.i18n.no = {
         // Core
         setText: 'OK',
         cancelText: 'Avbryt',
+        clearText: 'Tømme',
+        selectedText: '{count} valgt',
         // Datetime component
         dateFormat: 'dd.mm.yy',
         dateOrder: 'ddmmyy',
         dayNames: ['Søndag', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag'],
         dayNamesShort: ['Sø', 'Ma', 'Ti', 'On', 'To', 'Fr', 'Lø'],
+        dayNamesMin: ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
         dayText: 'Dag',
+        delimiter: '.',
         hourText: 'Time',
         minuteText: 'Minutt',
         monthNames: ['Januar', 'Februar', 'Mars', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Desember'],
@@ -19,7 +23,10 @@
         timeWheels: 'HHii',
         yearText: 'År',
         nowText: 'Nå',
+        pmText: 'pm',
+        amText: 'am',
         // Calendar component
+        firstDay: 1,
         dateText: 'Dato',
         timeText: 'Tid',
         calendarText: 'Kalender',
@@ -39,6 +46,12 @@
         stopText: 'Stopp',
         resetText: 'Tilbakestille',
         lapText: 'Runde',
-        hideText: 'Skjul'
-    });
+        hideText: 'Skjul',
+        // Listview
+        backText: 'Tilbake',
+        undoText: 'Angre',
+        // Form
+        offText: 'Av',
+        onText: 'På'
+    };
 })(jQuery);

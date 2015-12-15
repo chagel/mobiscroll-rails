@@ -1,14 +1,18 @@
 (function ($) {
-    $.mobiscroll.i18n.de = $.extend($.mobiscroll.i18n.de, {
+    $.mobiscroll.i18n.de = {
         // Core
         setText: 'OK',
         cancelText: 'Abbrechen',
+        clearText: 'Löschen',
+        selectedText: '{count} ausgewählt',
         // Datetime component
         dateFormat: 'dd.mm.yy',
         dateOrder: 'ddmmyy',
         dayNames: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
         dayNamesShort: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
+        dayNamesMin: ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
         dayText: 'Tag',
+        delimiter: '.',
         hourText: 'Stunde',
         minuteText: 'Minuten',
         monthNames: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
@@ -19,7 +23,10 @@
         timeWheels: 'HHii',
         yearText: 'Jahr',
         nowText: 'Jetzt',
+        pmText: 'nachm.',
+        amText: 'vorm.',
         // Calendar component
+        firstDay: 1,
         dateText: 'Datum',
         timeText: 'Zeit',
         calendarText: 'Kalender',
@@ -39,6 +46,12 @@
         stopText: 'Stoppen',
         resetText: 'Zurücksetzen',
         lapText: 'Lap',
-        hideText: 'Ausblenden'
-    });
+        hideText: 'Ausblenden',
+        // Listview
+        backText: 'Zurück',
+        undoText: 'Rückgängig machen',
+        // Form
+        offText: 'Aus',
+        onText: 'Ein'
+    };
 })(jQuery);
